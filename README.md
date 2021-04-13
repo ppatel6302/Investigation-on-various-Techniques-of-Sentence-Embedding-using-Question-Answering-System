@@ -1,6 +1,6 @@
 # Investigation-on-various-Techniques-of-Sentence-Embedding-using-Question-Answering-System
 
-Download the SQaud Dataset from here https://www.kaggle.com/stanfordu/stanford-question-answering-dataset
+Download the SQuAD Dataset from here https://www.kaggle.com/stanfordu/stanford-question-answering-dataset
 
 Download the Infersent by these command
 
