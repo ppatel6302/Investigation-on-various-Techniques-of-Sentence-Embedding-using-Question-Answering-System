@@ -6,11 +6,12 @@ The project will concentrate on incorporating the sentence embedding with its va
 
 **Download the SQuAD Dataset** from here https://www.kaggle.com/stanfordu/stanford-question-answering-dataset
 
-BERT MODEL:
+**BERT MODEL:**
 The BERT model is fine-tuned by first initialising it with the pre-trained parameters and then fine-tuning all of the parameters using labelled data from the downstream tasks. Even though they are all started with the same pre-trained parameters, each downstream task has its own fine-tuned model. 
 Pre-training is costly (4 days on 4 to 16 Cloud TPUs), but it is a once-off procedure. A number of pre-trained models have been released by BERT. Fine-tuning is a inexpensive process. On a single Cloud TPU, or a few hours on a GPU, all of the results in the paper can be replicated in under an hour. SQuAD, for example, can be trained on a single Cloud TPU in about 30 minutes and achieve a Dev F1 score of 91.0 %.
+Moreover, the BERT model is also used for **WikiQA dataset** which is described in the above folder where, the instructions are followed to run the code.
 
-INFERSENT MODEL:
+**INFERSENT MODEL:**
 Facebook's latest sentence embedding model is called InferSent (as of early 2019). It's by far the most successful and only supervised sentence embedding technique I've seen so far. It refutes the notion that supervised learning produces lower-quality embeddings.
 
 The Stanford Natural Language Inference Corpus, which consists of 570K sentence pairs that are either related neutrally, contradict each other, or imply each other, is used to train the InferSent model. The labels are labelled appropriately.
