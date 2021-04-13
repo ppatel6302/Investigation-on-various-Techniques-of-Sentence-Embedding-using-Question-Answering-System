@@ -21,6 +21,7 @@ Moreover, the BERT model is also used for **WikiQA dataset** which is described 
 
 Glove Embedding
 <p align="justify">To generate word embeddings, Glove uses a count-based method. It tracks the frequency of the words used in the corpus using a co-occurrence matrix of words against content and assigns a numeric representation to each word based on the frequency.</p>
+
 Download the Glove Embedding File from here https://www.kaggle.com/takuok/glove840b300dtxt
 
 **Download the Infersent by these command**
