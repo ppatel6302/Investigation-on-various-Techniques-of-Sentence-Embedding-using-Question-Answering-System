@@ -1,1 +1,13 @@
+To run this program you need to download the pre-trained BERT model from the here. Moreover, to view the output i have used postman.
 
+After downloading the model just move the files into model folder.
+
+Once done with this just open terminal and type pip3 install -r requirements.txt 
+
+After this simply type python api.py and the api would be live at 0.0.0.0:8000 and is ready to get the request.
+
+Open the postman desktop application and go to import and under raw section just type 
+
+curl -X POST http://0.0.0.0:8000/predict -H 'Content-Type: application/json' -d '{ "document": "spaCy supports a number of transfer and multi-task learning workflows that can often help improve your pipeline’s efficiency or accuracy. Transfer learning refers to techniques such as word vector tables and language model pretraining. These techniques can be used to import knowledge from raw text into your pipeline, so that your models are able to generalize better from your annotated examples. I have used Spacy tree parsing as it is has a rich API for navigating through the tree. Semantic representation of sentences from paragraph to meaningful sentences.","question":"How spacy api navigates?" }'
+
+And just send the request and wait for model to get an answer for you.
