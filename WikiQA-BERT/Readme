@@ -1,4 +1,4 @@
-To run this program you need to download the pre-trained BERT model from the here. Moreover, to view the output i have used postman.
+To run this program you need to download the pre-trained BERT model from the here "https://drive.google.com/file/d/19vBVVCS43OLUVjcmhG5invb-PH5Kl3Js/view?usp=sharing". Moreover, to view the output i have used postman.
 
 After downloading the model just move the files into model folder.
 
